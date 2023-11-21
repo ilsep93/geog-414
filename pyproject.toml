@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "geog-414"
+version = "0.1.0"
+description = ""
+authors = ["Ilse Paniagua <ilsep@umich.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter-book = "^0.15.1"
+jupytext = "^1.15.2"
+matplotlib = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.2"
+ghp-import = "^2.1.0"
+leafmap = "^0.29.0"
+geemap = "^0.29.5"
+duckdb = "^0.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
