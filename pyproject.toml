@@ -10,6 +10,7 @@ python = "^3.11"
 jupyter-book = "^0.15.1"
 jupytext = "^1.15.2"
 matplotlib = "^3.8.1"
+osmnx = "^1.9.1"
 
 [tool.poetry.group.dev.dependencies]
 numpy = "^1.26.2"
